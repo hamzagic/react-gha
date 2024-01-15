@@ -1,4 +1,7 @@
 # Basic ReactJS app to implement Github Actions
+
+If tests fail, PRs won't be merged. 
+
 ## Available Scripts
 
 In the project directory, you can run:
