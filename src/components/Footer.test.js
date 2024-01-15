@@ -10,6 +10,6 @@ describe('<Footer />', () => {
       </MemoryRouter>
     );
     const footerText = screen.getByText(/2024 techfran/i);
-    expect(footerText).toBeInTheDocument();
+    expect(footerText).not.toBeInTheDocument();
   });
 });
